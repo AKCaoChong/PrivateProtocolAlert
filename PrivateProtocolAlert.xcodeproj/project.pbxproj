@@ -14,6 +14,11 @@
 		24703CF7216F443500D51045 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24703CF5216F443500D51045 /* LaunchScreen.storyboard */; };
 		24703D02216F443600D51045 /* PrivateProtocolAlertTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24703D01216F443600D51045 /* PrivateProtocolAlertTests.swift */; };
 		24703D0D216F443600D51045 /* PrivateProtocolAlertUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24703D0C216F443600D51045 /* PrivateProtocolAlertUITests.swift */; };
+		24703D1B216F47B600D51045 /* PrivateAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24703D1A216F47B600D51045 /* PrivateAlertView.swift */; };
+		24703D1D216F48A600D51045 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24703D1C216F48A600D51045 /* UIView+Extension.swift */; };
+		7132BD2FAFD338A9C0C189BB /* Pods_PrivateProtocolAlertTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED818F16355D5AE8A30592AA /* Pods_PrivateProtocolAlertTests.framework */; };
+		A0799ABEA9011C2DA1AD35BE /* Pods_PrivateProtocolAlert.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5ECBBA7EBD0F83FFD74ACFF /* Pods_PrivateProtocolAlert.framework */; };
+		D20C9247CA47816C83BDDF5B /* Pods_PrivateProtocolAlertUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1941B756EDF4EDF68706EC1 /* Pods_PrivateProtocolAlertUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		21811A10B0A382FAA8BB579C /* Pods-PrivateProtocolAlertTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateProtocolAlertTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateProtocolAlertTests/Pods-PrivateProtocolAlertTests.release.xcconfig"; sourceTree = "<group>"; };
 		24703CE9216F443300D51045 /* PrivateProtocolAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrivateProtocolAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24703CEC216F443300D51045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24703CEE216F443300D51045 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +53,16 @@
 		24703D08216F443600D51045 /* PrivateProtocolAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrivateProtocolAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		24703D0C216F443600D51045 /* PrivateProtocolAlertUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivateProtocolAlertUITests.swift; sourceTree = "<group>"; };
 		24703D0E216F443600D51045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24703D1A216F47B600D51045 /* PrivateAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateAlertView.swift; sourceTree = "<group>"; };
+		24703D1C216F48A600D51045 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		45959179DF221750CA09C01E /* Pods-PrivateProtocolAlertUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateProtocolAlertUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateProtocolAlertUITests/Pods-PrivateProtocolAlertUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7097875CD0CC1D711CB7F7AC /* Pods-PrivateProtocolAlertTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateProtocolAlertTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateProtocolAlertTests/Pods-PrivateProtocolAlertTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84B32D0AA6A4B259C26DECB0 /* Pods-PrivateProtocolAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateProtocolAlert.release.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateProtocolAlert/Pods-PrivateProtocolAlert.release.xcconfig"; sourceTree = "<group>"; };
+		B1941B756EDF4EDF68706EC1 /* Pods_PrivateProtocolAlertUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateProtocolAlertUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CB4C09F8142F3B3C3E5EB6 /* Pods-PrivateProtocolAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateProtocolAlert.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateProtocolAlert/Pods-PrivateProtocolAlert.debug.xcconfig"; sourceTree = "<group>"; };
+		BF54AB6E5398F9553848772D /* Pods-PrivateProtocolAlertUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrivateProtocolAlertUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PrivateProtocolAlertUITests/Pods-PrivateProtocolAlertUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5ECBBA7EBD0F83FFD74ACFF /* Pods_PrivateProtocolAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateProtocolAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED818F16355D5AE8A30592AA /* Pods_PrivateProtocolAlertTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrivateProtocolAlertTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0799ABEA9011C2DA1AD35BE /* Pods_PrivateProtocolAlert.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7132BD2FAFD338A9C0C189BB /* Pods_PrivateProtocolAlertTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D20C9247CA47816C83BDDF5B /* Pods_PrivateProtocolAlertUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		101E344D45025C8B898D2B83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1CB4C09F8142F3B3C3E5EB6 /* Pods-PrivateProtocolAlert.debug.xcconfig */,
+				84B32D0AA6A4B259C26DECB0 /* Pods-PrivateProtocolAlert.release.xcconfig */,
+				7097875CD0CC1D711CB7F7AC /* Pods-PrivateProtocolAlertTests.debug.xcconfig */,
+				21811A10B0A382FAA8BB579C /* Pods-PrivateProtocolAlertTests.release.xcconfig */,
+				BF54AB6E5398F9553848772D /* Pods-PrivateProtocolAlertUITests.debug.xcconfig */,
+				45959179DF221750CA09C01E /* Pods-PrivateProtocolAlertUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		24703CE0216F443300D51045 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				24703D00216F443600D51045 /* PrivateProtocolAlertTests */,
 				24703D0B216F443600D51045 /* PrivateProtocolAlertUITests */,
 				24703CEA216F443300D51045 /* Products */,
+				101E344D45025C8B898D2B83 /* Pods */,
+				37D93233C3EE892AA87B7575 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +131,8 @@
 		24703CEB216F443300D51045 /* PrivateProtocolAlert */ = {
 			isa = PBXGroup;
 			children = (
+				24703D1C216F48A600D51045 /* UIView+Extension.swift */,
+				24703D1A216F47B600D51045 /* PrivateAlertView.swift */,
 				24703CEC216F443300D51045 /* AppDelegate.swift */,
 				24703CEE216F443300D51045 /* ViewController.swift */,
 				24703CF0216F443300D51045 /* Main.storyboard */,
@@ -125,6 +161,16 @@
 			path = PrivateProtocolAlertUITests;
 			sourceTree = "<group>";
 		};
+		37D93233C3EE892AA87B7575 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5ECBBA7EBD0F83FFD74ACFF /* Pods_PrivateProtocolAlert.framework */,
+				ED818F16355D5AE8A30592AA /* Pods_PrivateProtocolAlertTests.framework */,
+				B1941B756EDF4EDF68706EC1 /* Pods_PrivateProtocolAlertUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +178,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24703D11216F443600D51045 /* Build configuration list for PBXNativeTarget "PrivateProtocolAlert" */;
 			buildPhases = (
+				297FCD3238EF347D87C7E997 /* [CP] Check Pods Manifest.lock */,
 				24703CE5216F443300D51045 /* Sources */,
 				24703CE6216F443300D51045 /* Frameworks */,
 				24703CE7216F443300D51045 /* Resources */,
+				FD21F5F14A67B37C5E597E95 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +197,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24703D14216F443600D51045 /* Build configuration list for PBXNativeTarget "PrivateProtocolAlertTests" */;
 			buildPhases = (
+				8E49487E2BE7D75A510D1F72 /* [CP] Check Pods Manifest.lock */,
 				24703CF9216F443600D51045 /* Sources */,
 				24703CFA216F443600D51045 /* Frameworks */,
 				24703CFB216F443600D51045 /* Resources */,
@@ -167,6 +216,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24703D17216F443600D51045 /* Build configuration list for PBXNativeTarget "PrivateProtocolAlertUITests" */;
 			buildPhases = (
+				7F40EFAEFE799DEA66E56076 /* [CP] Check Pods Manifest.lock */,
 				24703D04216F443600D51045 /* Sources */,
 				24703D05216F443600D51045 /* Frameworks */,
 				24703D06216F443600D51045 /* Resources */,
@@ -251,12 +301,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		297FCD3238EF347D87C7E997 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrivateProtocolAlert-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F40EFAEFE799DEA66E56076 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrivateProtocolAlertUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E49487E2BE7D75A510D1F72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrivateProtocolAlertTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD21F5F14A67B37C5E597E95 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PrivateProtocolAlert/Pods-PrivateProtocolAlert-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PrivateProtocolAlert/Pods-PrivateProtocolAlert-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		24703CE5216F443300D51045 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24703D1B216F47B600D51045 /* PrivateAlertView.swift in Sources */,
 				24703CEF216F443300D51045 /* ViewController.swift in Sources */,
+				24703D1D216F48A600D51045 /* UIView+Extension.swift in Sources */,
 				24703CED216F443300D51045 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -428,6 +557,7 @@
 		};
 		24703D12216F443600D51045 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1CB4C09F8142F3B3C3E5EB6 /* Pods-PrivateProtocolAlert.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +576,7 @@
 		};
 		24703D13216F443600D51045 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B32D0AA6A4B259C26DECB0 /* Pods-PrivateProtocolAlert.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +595,7 @@
 		};
 		24703D15216F443600D51045 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7097875CD0CC1D711CB7F7AC /* Pods-PrivateProtocolAlertTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +617,7 @@
 		};
 		24703D16216F443600D51045 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21811A10B0A382FAA8BB579C /* Pods-PrivateProtocolAlertTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +639,7 @@
 		};
 		24703D18216F443600D51045 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF54AB6E5398F9553848772D /* Pods-PrivateProtocolAlertUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +660,7 @@
 		};
 		24703D19216F443600D51045 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45959179DF221750CA09C01E /* Pods-PrivateProtocolAlertUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

@@ -1,0 +1,6 @@
+framework module Pods_PrivateProtocolAlertTests {
+  umbrella header "Pods-PrivateProtocolAlertTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
