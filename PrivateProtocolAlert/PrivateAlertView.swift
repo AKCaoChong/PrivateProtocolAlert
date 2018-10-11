@@ -13,6 +13,10 @@ import SnapKit
 let kw = UIScreen.main.bounds.width
 let kh = UIScreen.main.bounds.height
 
+func realWidth(width: CGFloat) -> CGFloat {
+    return (kw/375) * width
+}
+
 class PrivateAlertService: NSObject {
     
     static let shared = PrivateAlertService()
@@ -39,7 +43,7 @@ class PrivateAlertService: NSObject {
             make.centerX.equalToSuperview()
             make.centerY.equalToSuperview()
             make.width.equalTo(kw - 60)
-            make.height.equalTo(kh - 200)
+            make.height.equalTo(realWidth(width: 400))
         }
         privateAlertView.layer.cornerRadius = 5
         privateAlertView.layer.masksToBounds = true
@@ -102,6 +106,8 @@ class PrivateAlertView: UIView {
 
     lazy var contentTableView: UITableView = {
         let tableview = UITableView(frame: CGRect.zero, style: .grouped)
+        let frame = CGRect(x: 0, y: 0, width: 0, height: CGFloat.leastNormalMagnitude)
+        tableview.tableHeaderView = UIView(frame: frame)
         tableview.backgroundColor = .white
         tableview.separatorStyle = .none
         tableview.delegate = self
@@ -122,6 +128,7 @@ class PrivateAlertView: UIView {
         self.init(frame: frame)
         self.contents = contents
         self.setUI()
+        
     }
     
     required init?(coder aDecoder: NSCoder) {
@@ -146,7 +153,7 @@ class PrivateAlertView: UIView {
         titleLabel.textColor = .black
         
         contentTableView.snp.makeConstraints { (make) in
-            make.top.equalTo(titleLabel.snp.bottom).offset(2 * margin)
+            make.top.equalTo(titleLabel.snp.bottom).offset(margin)
             make.left.equalTo(margin)
             make.right.equalTo(-margin)
             make.bottom.equalTo(-60)
